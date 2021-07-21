@@ -1,6 +1,6 @@
 {
-  "short_name": "Dryad Admin",
-  "name": "LDAP Dryad Dashboard",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
