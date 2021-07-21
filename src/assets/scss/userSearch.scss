@@ -1,0 +1,67 @@
+@import "./global.scss";
+.search-div {
+    height: fit-content;
+    background-color: $white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: $global-radius;
+    margin-top: 3%;
+
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 2em;
+    list-style-type: none;
+    & input,
+    & select {
+        outline: none;
+        border: none;
+        color: $blue;
+        height: 40px;
+        width: 97%;
+        font-size: 17px;
+        border-bottom: 2px solid $shadow;
+        transition: all 0.3s;
+        &:not(:last-child) {
+            margin: 0 0 0.8em 0;
+        }
+        &:hover {
+            background-color: $inputHover;
+        }
+    }
+    & select {
+        width: 30%;
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    & input.btn-submit-form {
+        margin: 0 auto;
+        margin-right: 40px;
+        color: $white;
+        background: $greenBtn;
+        border: none;
+        border-radius: $global-radius;
+        border-bottom: 4px solid $greenBtnBottomLine;
+        transition: all 0.2s ease;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        height: 40px;
+        width: 200px;
+        &:hover {
+            background: $greenBtnHover;
+            color: $white;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+        &:active {
+            border: 0;
+            transition: all 0.2s ease;
+        }
+    }
+}

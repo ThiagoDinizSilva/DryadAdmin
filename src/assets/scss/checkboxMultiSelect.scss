@@ -1,0 +1,109 @@
+@import "./global.scss";
+
+.hidden-select {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 350px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  & > p {
+    margin-left: 5px;
+  }
+  &:hover {
+    background-color: $inputHover;
+  }
+}
+#checkBoxes {
+  position: absolute;
+  display: none;
+  background-color: $white;
+  margin-top: 38%;
+  width: 80%;
+  height: 150px;
+  border: 1px solid $blue;
+  border-top: none;
+  border-radius: $global-radius;
+  overflow: auto;
+  & button {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 30px;
+    border: transparent;
+    outline: transparent;
+    background-color: transparent;
+    border-bottom: 1px solid $shadow;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    & p {
+      font-size: 15px;
+    }
+    &:hover {
+      background-color: $inputHover;
+    }
+  }
+}
+.selectedGroup {
+  align-items: center;
+  border-radius: $global-radius;
+  border: 1px solid $blue;
+  background-color: $clearShadow;
+  & button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    & svg {
+      pointer-events: none;
+      font-size: 14px;
+    }
+    & p {
+      pointer-events: none;
+      margin: 0px;
+      font-weight: bold;
+    }
+  }
+}
+/*
+#checkBoxes {
+  position: absolute;
+  background-color: $white;
+  margin-top: 7px;
+  border: 1px solid $blue;
+  border-top: none;
+  border-radius: $global-radius;
+  & span {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 30px;
+    border-bottom: 1px solid $shadow;
+    & input {
+    }
+    & label {
+      display: flex;
+      height: 100%;
+      text-align: left;
+      align-items: center;
+      & p {
+
+      }
+    }
+    &:hover {
+      background-color: $inputHover;
+    }
+  }
+}
+
+#checkBoxes label {
+  display: block;
+}
+*/

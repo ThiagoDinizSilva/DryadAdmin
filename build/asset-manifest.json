@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/DryadAdmin/static/css/main.b29e8e5a.chunk.css",
+    "main.js": "/DryadAdmin/static/js/main.03665341.chunk.js",
+    "main.js.map": "/DryadAdmin/static/js/main.03665341.chunk.js.map",
+    "runtime-main.js": "/DryadAdmin/static/js/runtime-main.d7bf3508.js",
+    "runtime-main.js.map": "/DryadAdmin/static/js/runtime-main.d7bf3508.js.map",
+    "static/js/2.cd29d785.chunk.js": "/DryadAdmin/static/js/2.cd29d785.chunk.js",
+    "static/js/2.cd29d785.chunk.js.map": "/DryadAdmin/static/js/2.cd29d785.chunk.js.map",
+    "index.html": "/DryadAdmin/index.html",
+    "static/css/main.b29e8e5a.chunk.css.map": "/DryadAdmin/static/css/main.b29e8e5a.chunk.css.map",
+    "static/js/2.cd29d785.chunk.js.LICENSE.txt": "/DryadAdmin/static/js/2.cd29d785.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7bf3508.js",
+    "static/js/2.cd29d785.chunk.js",
+    "static/css/main.b29e8e5a.chunk.css",
+    "static/js/main.03665341.chunk.js"
+  ]
+}

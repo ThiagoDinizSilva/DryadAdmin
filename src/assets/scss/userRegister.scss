@@ -1,0 +1,63 @@
+@import "./global.scss";
+
+.register-form {
+    width: 30%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 30px;
+    list-style-type: none;
+    border-radius: $global-radius;
+
+    background-color: $white;
+    & input,
+    & select {
+        outline: none;
+        border: none;
+        color: $blue;
+        height: 50px;
+        width: 100%;
+        font-size: 17px;
+        border-bottom: 2px solid $shadow;
+        transition: all 0.3s;
+    }
+    & select {
+        width: fit-content;
+    }
+    & span {
+        height: 50px;
+        width: 100%;
+    }
+    & input:hover {
+        background-color: $inputHover;
+    }
+    & .btn-submit-form {
+        align-self: flex-end;
+        margin: 0 auto;
+        color: $white;
+        background: $greenBtn;
+        border: none;
+        border-radius: $global-radius;
+        border-bottom: 4px solid $greenBtnBottomLine;
+        transition: all 0.2s ease;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 80%;
+        height: 50px;
+        &:hover {
+            background: $greenBtnHover;
+            color: $white;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+        &:active {
+            border: 0;
+            transition: all 0.2s ease;
+        }
+    }
+}

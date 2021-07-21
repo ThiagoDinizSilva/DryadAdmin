@@ -1,0 +1,77 @@
+@import "./global.scss";
+
+.page-index {
+    margin: 0 auto;
+    width: 100%;
+    height: fit-content;
+    padding: 0px;
+    padding: 3em 0 1em 0;
+    & li {
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid $shadow;
+        width: 95%;
+        margin: 0 auto;
+        height: 36px;
+    }
+    & .index-label p {
+        color: $labelColor;
+        font-weight: bold;
+        &:not(:last-child) {
+            width: 40%;
+        }
+    }
+    & .index-item p {
+        width: 40%;
+    }
+}
+
+.index-icon-div {
+    display: flex;
+    align-content: flex-end;
+    margin-left: auto;
+    & button {
+        display: flex;
+        align-items: center;
+        margin-left: 4px;
+        outline: none;
+        border: none;
+        background-color: #fff;
+        width: 30px;
+    }
+    & svg {
+        font-size: 21px;
+        pointer-events: none;
+    }
+}
+.index-btn-area {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 18px;
+    width: 40%;
+    height: 25px;
+    & button {
+        width: 40px;
+        height: 100%;
+        margin-left: 6px;
+        margin-bottom: 10px;
+        color: #ffffff;
+        font-weight: bold;
+        border: none;
+        background-color: #0059ff;
+        box-shadow: 2px 1px 10px #5983d177;
+        outline: none;
+        transition: all 0.3s;
+        &:hover {
+            color: #9c9da7;
+            background-color: #114cbb;
+        }
+    }
+}
+
+.active {
+    color: #9c9da7;
+    background-color: #114cbb;
+}

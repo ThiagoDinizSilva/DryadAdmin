@@ -1,0 +1,22 @@
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: rgb(164, 196, 218);
+  background: linear-gradient(
+    360deg,
+    rgba(164, 196, 218, 1) 0%,
+    rgba(206, 228, 242, 1) 90%,
+    rgba(230, 245, 255, 1) 100%
+  );
+  font-size: 1.5rem;
+}
